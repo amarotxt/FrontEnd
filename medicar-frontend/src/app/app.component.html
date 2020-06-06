@@ -1,0 +1,15 @@
+<h1> Especialidade</h1>
+
+<ul>
+  <li *ngFor="let especialidade of especialidades" (click)="chosenEspecialidade(especialidade)" >
+    {{ especialidade.nome }}  
+  </li>
+</ul>
+
+<h1> Medicos </h1>
+
+<ul>
+  <li *ngFor="let medico of medicos">
+    {{ medico.nome }}  
+  </li>
+</ul>
